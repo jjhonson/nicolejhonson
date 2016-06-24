@@ -30,10 +30,33 @@ body {
 }
 
 .navbar-default {
-    background-color: #eeeeee;
-    border: solid 1px #757575;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+  background-color: #002360;
+  border-color: #898483;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fbfbfb;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fbfbfb;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #002360;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
 }
 
 .header-image {
@@ -83,4 +106,8 @@ body {
   margin-bottom: 0;
   font-size: 1em;
   color: grey;
+}
+
+.well-lg {
+  margin-top: 40px;
 }
