@@ -78,3 +78,9 @@ body {
   box-shadow: 5px 5px 15px #555;
   align-items: center;
 }
+
+.addressblock {
+  margin-bottom: 0;
+  font-size: 1em;
+  color: grey;
+}
