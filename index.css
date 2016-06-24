@@ -7,10 +7,10 @@ body {
 }
 
 .logo {
-    padding-left: 5%;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    height: 90px;
+  padding-left: 5%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 90px;
 }
 
 .phone {
@@ -30,8 +30,10 @@ body {
 }
 
 .navbar-default {
-    color: #FFFFFF;
-    background-color: #CC3333;
+    background-color: #eeeeee;
+    border: solid 1px #757575;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 .header-image {
