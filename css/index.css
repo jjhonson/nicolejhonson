@@ -1,10 +1,9 @@
 @font-face {
     font-family: 'bebas_neueregular';
-    src: url('bebasneue-webfont.woff2') format('woff2'),
-         url('bebasneue-webfont.woff') format('woff');
+    src: url('../fonts/bebasneue-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
