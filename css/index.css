@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.h1 {
+  font-size: 45px;
+}
+
+.logo {
+  padding-left: 5%;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  height: 90px;
+}
+
+.phone {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  color: #002360;
+  font-weight: bold;
+}
+
+.address {
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-family: 'Roboto', sans-serif;
+  color: #002360;
+  font-weight: bold;
+}
+
+.navbar-default {
+  background-color: #002360;
+  border-color: #898483;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fbfbfb;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fbfbfb;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #002360;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+
+.header-image {
+  width: 100%;
+  height: 150px;
+  float: left;
+  margin: 0;
+  box-shadow: 2px 2px 7px #555;
+}
+
+.announce {
+  color: #002360;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.nicole {
+  font-family: 'bebas_neueregular', Arial, sans-serif;
+  font-size: 6em;
+  font-weight: 900;
+  margin-top: 10px;
+  color: #002360;
+}
+
+.centercopy {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.payments {
+  width: 60px;
+  margin-right: 7px;
+  padding-bottom: 10px;
+}
+
+.nav-button {
+  margin-left: 100px;
+}
+
+.headshot {
+  height: 350px;
+  box-shadow: 5px 5px 15px #555;
+  align-items: center;
+}
+
+.addressblock {
+  margin-bottom: 0;
+  font-size: 1em;
+  color: grey;
+}
+
+.well-lg {
+  margin-top: 40px;
+}
